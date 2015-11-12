@@ -1,0 +1,22 @@
+{
+  "name": "finalpricetool",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kevin Kopp <koppks323@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/KOPPKS/firstfile",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~2.3.1",
+    "angular": "~1.4.7"
+  }
+}
