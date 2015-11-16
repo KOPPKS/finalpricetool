@@ -20,23 +20,41 @@
   <p style="text-align: center">A Smarter Way to Price Retail Products</p>
   </div>
 
-<div class="btn-group" uib-dropdown is-open="status.isopen">
-      <button id="single-button" style="background-color: f08080" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
-        Price Comparison Tools <span class="caret"></span>
-      </button>
-      <ul class="uib-dropdown-menu" role="menu" aria-labelledby="single-button">
-        <li role="menuitem"><a href="#">Action</a></li>
-        <li role="menuitem"><a href="#">Another action</a></li>
-        <li role="menuitem"><a href="#">Something else here</a></li>
-        <li class="divider"></li>
-        <li role="menuitem"><a href="#">Separated link</a></li>
+<nav class="navbar navbar-inverse">
+   <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Price Tools</a></div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#">Walmart Comparsion Tool</a></li>
+          </li>
+          <li>
+            <a href="#">Amazon Comparison Tool</a></li>
+          </li>
+          <li>
+            <a href="#"><span class="glyphicon glyphicon-user"></span>Create User</a></li>
+          </li>
+          <li>
+            <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </li>  
       </ul>
-    </div>
-
-
+</nav>
 </div>
 
-	
+<div class="btn-group" uib-dropdown uib-keyboard-nav>
+        <button style="background-color: f08080" id="simple-btn-keyboard-nav" type="button" class="btn btn-primary" uib-dropdown-toggle>
+             Pricing Calculators <span class="caret"></span>
+        </button>
+        <ul class="uib-dropdown-menu" role="menu" aria-labelledby="simple-btn-keyboard-nav">
+            <li role="menuitem"><a href="#">Action</a></li>
+            <li role="menuitem"><a href="#">Another action</a></li>
+            <li role="menuitem"><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li role="menuitem"><a href="#">Separated link</a></li>
+        </ul>
+    </div>
+
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
