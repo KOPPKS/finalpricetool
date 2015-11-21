@@ -1,0 +1,3 @@
+app.controller('WmtCtrl', function($scope) {
+	$scope.message = "This is the Walmart scope"
+});

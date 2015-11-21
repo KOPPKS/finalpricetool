@@ -1,19 +1,26 @@
 body {
-	background-color: 0080FF;
+	background-color: CC9360;
 }
+
+p {
+  font-size: 14;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .first {
 	position: fixed;
-	right: 50px;
+	right: 10px;
 	top: center;
   bottom: 300px;
-	-webkit-border-radius: 37;
-  	-moz-border-radius: 37;
+	-webkit-border-radius: 25;
+  	-moz-border-radius: 25;
   	border-radius: 37px;
   	font-family: Arial;
   	color: #ffffff;
   	font-size: 20px;
   	background: #d93f34;
-  	padding: 10px 20px 10px 20px;
+  	padding: 10px 20px 10px 50px;
   	text-decoration: none;
 }
 
@@ -23,9 +30,6 @@ body {
 }
 
 .one {
-	position: absolute;
-	left: 85px;
-	top: center;
 	-webkit-border-radius: 37;
   	-moz-border-radius: 37;
   	border-radius: 37px;
@@ -49,21 +53,20 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
-}
-	
-img.bottom {
-	display: block;
-	margin-left: 3em;
-	margin-right: 3em;
-	position: absolute;
-	bottom: 30px;
+
+.left {
+    display: inline-block;
+    vertical-align: left;
+    line-height: 35px;
+    position: relative;
+    text-align left;
+    list-style-position: outside;
+    margin: 0 1.5em 0 1.5em;
+    padding-bottom: 20px;
 }
 
-img.right {
-  position: fixed;
-  bottom: 20px;
-  right: 60px;
-  z-index: 1;
-  padding: 0px;
-  margin: 0px;
+navbar.right {
+    vertical-align: right;
+    float: right;
+
 }
