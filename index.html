@@ -15,17 +15,39 @@
   
 <nav class="navbar navbar-inverse navbar-fixed-top">
    <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Price Tools</a></div> 
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" style="font-size: 15">
           <li>
-            <a ui-sref="state1">Walmart Comparsion Tool</a>
+            <a ui-sref="state1">Overview</a>
+          </li>
+          <li>
+            <a ui-sref="cvbbgff">Walmart Comparsion Tool</a>
           </li>
           <li>
             <a href="#">Amazon Comparison Tool</a>
           </li>
           <li>
             <a href="#">Averages Comparison</a>
+          </li>
+          <li>
+            <a href="#">Margin Calculator</a>
+          </li>
+          <li>
+            <a href="#">Cost Calculator</a>
+          </li>
+          <li>
+            <a href="#">Value Calculator</a>
+          </li>
+          <li>
+            <a href="#">Volume Predictor</a>
+          </li>
+          <li>
+            <a href="#">Effect of Demand</a>
+          </li>
+          <li>
+            <a href="#">Final Price Calculator</a>
+          </li>
+          <li>
+            <a href="#">Final Comparison</a>
           </li>
           <li>
             <a href="#"><span class="glyphicon glyphicon-user"></span>Create User</a>
@@ -36,53 +58,31 @@
       </ul>
 </nav>
 </div>
-<br>
-<br>
-<img src="images/superman-dollar-sign.jpg" style="float:left; margin:5px 0px 0px 15px; cursor:pointer; cursor:hand; border:1" width="110" height="95">
-<img src="images/blog-profit copy.jpg" style="float:right; margin:5px 20px 0px 15px; cursor:pointer; cursor:hand; border:1" width="110" height="95">
+<br/>
+<br/>
+<br/>
+<br/>
+<img src="images/superman-dollar-sign.jpg" style="float:left;position: fixed; margin:5px 0px 0px 0px; cursor:pointer; cursor:hand; border:1" width="110" height="95">
+<img src="images/blog-profit copy.jpg" style="float:right; margin:5px 0px 0px 15px; cursor:pointer; cursor:hand; border:1" width="110" height="95">
 
-<h1 style="text-align: center"><b>The Price is Right!</b></h1>
+<h1><b>The Price is Right!</b></h1>
 <p style="text-align: center"><b>A Smarter Way to Price Retail Products</b></p>
 
-<hr/>
-
-<div class="loading text-center" "position: center" ui-view></div>
+<hr style="border-style:double;border-color: black; font-weight: 2em"/>
 
 
-<div id="navbar" style="float: left">
-  <ul class="btn-group-vertical">
-    <ol><button class="one" ui-sref="jkhljk">Overview</button></ol>
-    <br>
-    <ol><button class="one" ui-sref="jkhljk">Margin Calculator</button></ol>
-    <br>
-    <ol><button class="one" ui-sref="jkhljk">Cost Calculator</button></ol>
-    <br>
-    <ol><button class="one" ui-sref="jkhljk">Value Calculator</button></ol>
-    <br>
-    <ol><button class="one" ui-sref="jkhljk">Volume Predictor</button></ol>
-    <br>
-  </ul>
+
+
+
+
+
+
+
+<div><img src="images/Phone.jpg" style="float:right; position:fixed;bottom:0px;right:0px;z-index:999;width="110" height="80">
+<img src="images/Business1.jpeg" style="float:left; position:fixed;bottom:0px;left:0px;z-index:999;width="110" height="58">
 </div>
 
-<div id="navbar" style="float: right; margin: 0 75px 0 0">
-  <ul class="btn-group-vertical">
-    <ol><button class="one" ui-sref="jkhljk">Effect of Demand</button></ol>
-    <br>
-    <ol><button class="one" ui-sref="jkhljk">Final Price Calculator</button></ol>
-    <br>
-    <ol><button class="one" ui-sref="jkhljk">Final Comparison</button></ol>
-    <br>
-    <ol><button class="one" ui-sref="jkhljk">Save Results</button></ol>
-    <br>
-    <ol><button class="one" ui-sref="jkhljk">Margin Calculator</button></ol>
-    <br>
-  </ul>
-</div>
-<br>
-<br>
-<div><img src="images/Phone.jpg" style="float:right; position:fixed;bottom:20px;right:20px;z-index:999;width="110" height="100">
-<img src="images/PriceRight.png" style="float:right; position:fixed;bottom:20px;left:15px;z-index:999;width="110" height="100">
-</div>
+<div class="position: center; text-align: center" ui-view></div>
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
@@ -93,6 +93,7 @@
 <script src="node_modules/angularfire/dist/angularfire.js"></script>
 <script src="js/app.js"></script>
 <script src="ctrl/WmtCtrl"></script>
+<script src="ctrl/SecondCtrl.js"></script>
 
 </body>
 </html>

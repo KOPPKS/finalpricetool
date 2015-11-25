@@ -1,2 +1,57 @@
 bower_components
 node_modules
+
+<p class="overview">Product pricing is one of the most unpredictable and difficult challenges that a business can face. At first glance, the process appears to be very simple. After all, how hard could it be? One simply pays a set amount for a product, and then places a markup on it to realize a profit right? Although this simple formula may work in many cases, it isn't always that cut and dry.</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p class="overview">For example, price your products too low and you might get a ton of sales but you might find yourself going under when you tally up your expenses at the end of the month. On the other hand, when you price your products too high, you might give off an aura of luxury, prestige, and exclusivity thereby attracting a more well-off clientele which is smaller in number but makes up for volume by purchasing your products at the higher price. However, what if you're in an area where the demographic is especially price-sensitive, then what will you do?</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p class="overview">Ultimately, you'll have to decide whether you want higher prices for your products and a lower volume sold or lower priced products and higher volumes sold, and which direction will enable you to achieve profitability.</p>
+<br/>
+<br/>
+<br/>
+<p class="overview"> This tool attempts to simply this process by providing a solution of comparing all of the different factors that go into this process, which include:</p>
+
+div id="navbar1" style="float: left">
+  <ul class="btn-group-vertical">
+    <ol><button class="one" ui-sref="state1">Overview</button></ol>
+    <br>
+    <ol><button class="one" ui-sref="jkhljk">Margin Calculator</button></ol>
+    <br>
+    <ol><button class="one" ui-sref="jkhljk">Cost Calculator</button></ol>
+    <br>
+    <ol><button class="one" ui-sref="jkhljk">Value Calculator</button></ol>
+    <br>
+    <ol><button class="one" ui-sref="jkhljk">Volume Predictor</button></ol>
+    <br>
+  </ul>
+</div>
+
+<div id="navbar2" style="float: right">
+  <ul class="btn-group-vertical">
+    <ol><button class="one" ui-sref="jkhljk">Effect of Demand</button></ol>
+    <br>
+    <ol><button class="one" ui-sref="jkhljk">Final Price Calculator</button></ol>
+    <br>
+    <ol><button class="one" ui-sref="jkhljk">Final Comparison</button></ol>
+    <br>
+    <ol><button class="one" ui-sref="jkhljk">Save Results</button></ol>
+    <br>
+    <ol><button class="one" ui-sref="jkhljk">Margin Calculator</button></ol>
+    <br>
+  </ul>
+</div>
+<br>
+<br>
+
+<div><img src="images/Success2.jpg" style="float:left; position:fixed;bottom:400px;left:10px;z-index:999;width="1" height="58">
+<div><img src="images/Businessdeal.jpg" style="float:right; position:fixed;bottom:400px;right:100px;z-index:999;width="5" height="70">
