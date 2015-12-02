@@ -53,5 +53,7 @@ div id="navbar1" style="float: left">
 <br>
 <br>
 
+//'http://api.giphy.com/v1/gifs/search?q=' + query + '&api_key=dc6zaTOxFJmzC';
+
 <div><img src="images/Success2.jpg" style="float:left; position:fixed;bottom:400px;left:10px;z-index:999;width="1" height="58">
 <div><img src="images/Businessdeal.jpg" style="float:right; position:fixed;bottom:400px;right:100px;z-index:999;width="5" height="70">

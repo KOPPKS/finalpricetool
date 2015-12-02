@@ -1,0 +1,24 @@
+<div class="test">
+	<h2 style="text-align: center"><b>Test Calculator</b></h2>
+
+<p style="font-size 10">(Introduction to what calculator does)</p>
+<br/>
+	<form style="font-size: 12; font-weight: bolder">
+	
+		Materials: <input style="margin-left: 50px" type="text" ng-model="first" />
+		<br>
+		Overhead: <input style="margin-left: 48px" type="text" ng-model="second"/>
+		<br>
+		Manufacturing: <input style="margin-left: 20px" type="text" ng-model="third"/>
+		<br/>
+		<button style="float: right" ng-click="sum()">Calculate</button>
+		<br/>
+		<p style="text-align: center; font-size: 16"><b>The answer = {{ answer | currency }} per unit.</b></p>
+	</form>
+	
+</div>
+
+
+
+
+
