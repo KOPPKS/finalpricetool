@@ -1,6 +1,6 @@
  <div class="test">
 	<h3 style="text-align: center"><b>Walmart Comparison Tool</b></h3>
-	<p style="font-size: 12"><b>When comparing retail products, one of the best places to start is with the world's biggest retailer-Walmart. Walmart is the world's largest company by revenue, according to the Fortune Global 500 list in 2014, as well as the biggest private employer in the world with 2.2 million employees. In addition, since 1998 Walmart is also the most profitable retailer in the U.S. So when you are trying to find the lowest competitor price, chances are that it can be found at Walmart.</b></p>
+	<p style="font-size: 12"><b>When comparing retail products, one of the best places to start is with the world's biggest retailer-Walmart. Walmart is the world's largest company by revenue, according to the Fortune Global 500 list in 2014, as well as the biggest private employer in the world with 2.2 million employees. In addition, since 1998 Walmart is also the most profitable retailer in the U.S. So when you are trying to find the lowest competitor price, the odds are that it can be found at Walmart.</b></p>
 	<p style="font-size: 12"><b>To use the tool, simply enter the name of the product you are looking for in the field below, and click the Search button.</b></p>
 
 	<form>
@@ -16,10 +16,10 @@
       		</tr>
       	</thead>
       <tbody>
-      	<tr ng-repeat = "user in users">
-      		<td>{{user.product}}</td>
-      		<td>{{user.image}}</td>
-      		<td>{{user.price | currency}}</td>
+      	<tr ng-repeat = "product in products">
+      		<td>{{product.name}}</td>
+      		<td><img ng-src="{{product.thumbnailImage}}"></td>
+      		<td>{{product.salePrice | currency}}</td>
       	</tr>
      </tbody>
      </table>

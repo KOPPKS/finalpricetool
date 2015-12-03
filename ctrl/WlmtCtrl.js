@@ -1,18 +1,17 @@
-app.controller('WlmtCtrl', function ($scope, WmtService) {
-  $scope.products = [];
+angular.module('ModOne')
+.controller('WlmtCtrl', function ($scope, WmtService) {
 
-  scope.findProduct = function () {
+  $scope.findProducts = function () {
     WmtService.getProducts($scope.query)
-    .success(function (response) {
-      var randomNum = Math.floor(Math.random() * response.data.length);
-      console.log(response);
-
-
-      $scope.products = unshift(response.data[randomNum].images.downsized_large.url);
-      $scope.query = "";
+    .then(function (datafromService) {
+      console.info(datafromService);
+      $scope.products = datafromService.items;
     })
-    .error(function (err) {
+    .catch(function (err) {
       console.error(err);
-    });
+    })
   };
+    // $scope.getProducts();
+
+
 });
