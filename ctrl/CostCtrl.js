@@ -5,5 +5,7 @@ app.controller('CostCtrl', function($scope) {
 		var c = parseFloat($scope.third);
 		var result = (a + b + c);
 		$scope.answer = result;
+		document.getElementById("sound1").play();
 	};
+
 });

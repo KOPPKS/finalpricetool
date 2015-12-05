@@ -33,5 +33,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
 			templateUrl: "partials/state6.html",
 			controller: "WlmtCtrl"
 		})
+		.state("state7", {
+			url: "/state7",
+			templateUrl: "partials/state7.html",
+			controller: "FoodCtrl"
+		})
 })
 
