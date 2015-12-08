@@ -44,12 +44,18 @@ h1 {
   text-align: center;
 }
 
+.real {
+  color: #ff0000;
+  font-size: 12;
+}
+
 
 .test {
     width: 925px;
-    font-size: 18;
-    padding-left: 5px;
+    font-size: 9;
+    padding-left: 3px;
     padding-right: 5px;
+    font-weight: bolder;
     border: 5px solid navy;
     margin: 25px;
     background-color: tan;
@@ -58,7 +64,7 @@ h1 {
     margin-left: 150px;
     margin-right: 1300px;
     margin-bottom: center;
-    margin-top: center;
+    margin-top: 5px;
 }
 
 .tests {
