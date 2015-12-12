@@ -1,0 +1,15 @@
+<div class="testy">
+	<img src="images/Google.png" style="margin-left: 260px">
+	<br/>
+	<br/>
+	<button style="margin-left: 380px" ng-click="login()" ng-hide="user">Login with Google</button>
+	<br/>
+	<br/>
+      <div ng-show="user"> 
+        Welcome {{user.google.displayName}}
+        <button style="margin-left: 100px" ng-click="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
+</body>
+</div>

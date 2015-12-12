@@ -53,5 +53,31 @@ app.config(function($stateProvider, $urlRouterProvider) {
 			templateUrl: "partials/state10.html",
 			controller: "VolumeCtrl"
 		})
+		.state("state11", {
+			url: "/state11",
+			templateUrl: "partials/state11.html",
+			controller: "LogCtrl"
+		})
+		.state("state13", {
+			url: "/state13",
+			templateUrl: "partials/state13.html",
+			controller: "MgnCtrl"
+		})
+		.state("demand1", {
+			url: "/demand1",
+			templateUrl: "partials/price.html",
+			controller: "DemandCtrl"
+		})
+		.state("markup1", {
+			url: "/markup1",
+			templateUrl: "partials/markup.html",
+			controller: "MarkCtrl"
+		})
+		.state("compare1", {
+			url: "/compare1",
+			templateUrl: "partials/compare.html",
+			controller: "CompareCtrl"
+		})
+		
 })
 

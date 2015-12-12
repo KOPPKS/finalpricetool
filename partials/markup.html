@@ -1,0 +1,27 @@
+<div class="test">
+	<h2 style="text-align: center"><b>Final Markup Calculator</b></h2>
+
+<p>This calculator is used when one wants to follow a "Cost-Plus Pricing" strategy. Cost-plus pricing is a pricing strategy in which the selling price is determined by adding a percentage markup to a product's unit cost. This is the main alternative to Value-Based Pricing, which can be determined by using the Value Calculator.
+<p>To calculate price with this method, we simply need to use two figures that can be obtained by using other calcuators in this application:
+	<ul>
+		<li class="real">Breakeven Price</li>
+		<li class="real">Gross Profit Margin Percentage</li>
+	</ul>
+<p>In cost-plus pricing, a company first determines its break-even price for the product. This is done by calculating all the costs involved in the production, marketing and distribution of the product. Then a markup is set for each unit, based on the profit the company needs to make, its sales objectives and the price it believes customers will pay. For example, if the company needs a 15 percent profit margin and the break-even price is $2.59, the price will be set at $2.98 ($2.59 x 1.15).</p>
+<p>This can be calculated by entering your numbers into the two fields below:</p>
+
+<form style="font-size: 12; font-weight: bolder">
+	
+		Break-even price: <input style="margin-left: 107px" type="text" ng-model="first" />
+		<br>
+		Gross Profit Margin Percentage: <input style="margin-left: 24px" type="text" ng-model="second"/>
+		<br>
+		<br/>
+		<audio id="sound1" src="images/Sound.wav" preload="auto"></audio>
+		<button style="float: right" ng-click="sum()">Calculate</button>
+		<br/>
+		<p style="text-align: center; font-size: 16"><b>Final Price: {{ answer | currency }} per unit.</b></p>
+	</form>
+
+
+</div>

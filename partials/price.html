@@ -1,0 +1,33 @@
+<div class="test">
+	<h3 style="text-align: center"><b>Price Elasticity of Demand (PED)</b></h3>
+	<h6 style="text-align: center"><b>Will decreasing your price increase revenue?</b></h6>
+<p>What is price elasticity? This measure gives the percentage change in <i>quantity demanded</i> in response to a one percent change in price. To illusrate this principal, suppose that you own a company that supplies vending machines. Currently, your vending machines sell soft drinks at $1.50 per bottle. At that price, customers purchase 2,000 bottles per week. In order to increase sales, you decide to decrease the price to $1, and sales increase to 4,000 bottles.</p>
+<p>The price elasticity of demand is simply a number; it is not a monetary value. When we use the numbers in the previous example, the price elasticity comes out to be -1.67. What this number tells you is a 1 percent <i>decrease</i> in price causes a 1.67 percent increase in quantity demanded. In other words, quantity demanded’s percentage increase is greater than the percentage decrease in price. The key to remember with this measure is whenever the absolute value of demand <i>is greater than one</i> (positive or negative), price decreases will increase revenue.</p>
+<p>Price elasticities are almost always negative. Only goods which do not conform to the law of demand (the law of demand states that, all else being equal, as the price of a product increases (↑), quantity demanded falls (↓); likewise, as the price of a product decreases (↓), quantity demanded increases (↑)), such as Veblen and Giffen goods, have a positive PED.</p>
+<p>The calcuation of this measure is a little more complicated than most, but can be done by using four figures. These four figures were briefly discussed in the example given earlier. They include:</p>
+	<ol style="font-size: 10">
+		<li class="real">The original quantity of products sold with the original price.</li>
+		<li class="real">The original price the product was sold at.</li>
+		<li class="real">The increased quantity of products sold with the decreased price.</li>
+		<li class="real">The decreased price of your product.</li>
+	</ol>
+<p>To calcuate PED for a product, simply enter the whole numbers (with or without decimals) into the following input fields, and click calculate:</p>
+<form style="font-size: 12; font-weight: bolder">
+	
+		Original Quantity of Products Sold: <input style="margin-left: 21px" type="text" ng-model="first" />
+		<br>
+		Original Product Price (per unit): <input style="margin-left: 36px" type="text" ng-model="second"/>
+		<br>
+		Increased Quantity of Products Sold: <input style="margin-left: 9px" type="text" ng-model="third"/>
+		<br/>
+		Decreased Product Price (per unit): <input style="margin-left: 18px" type="text" ng-model="fourth"/>
+		<br/>
+		<br/>
+		<audio id="sound1" src="images/Sound.wav" preload="auto"></audio>
+		<button style="float: right" ng-click="solution()">Calculate</button>
+		<br/>
+		<p style="text-align: center; font-size: 16"><b>Price Elasticity of Demand: {{answer | number:2}}.</b></p>
+		<p style="text-align: center; font-size: 16"><b>{{output}}</b></p>
+	</form>
+	
+</div>

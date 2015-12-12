@@ -30,6 +30,15 @@ body  {
   background-color: lightskyblue;
 }
 
+.message, .messages {
+  margin-bottom: 10px;
+}
+
+.remove {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 .navbar-nav > li{
   margin-left:0px;
   margin-right:0px;
@@ -52,13 +61,13 @@ h1 {
 
 .test {
     width: 925px;
-    font-size: 9;
+    font-size: 7;
     padding-left: 3px;
     padding-right: 5px;
     font-weight: bolder;
     border: 5px solid navy;
     margin: 25px;
-    background-color: tan;
+    background-color: #C5EFFD;
     text-align: justify;
     position: relative;
     margin-left: 150px;

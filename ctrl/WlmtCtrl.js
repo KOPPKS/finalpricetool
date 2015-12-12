@@ -1,4 +1,4 @@
-angular.module('ModOne')
+ angular.module('ModOne')
 .controller('WlmtCtrl', function ($scope, WmtService) {
 
   $scope.findProducts = function () {
