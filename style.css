@@ -8,7 +8,33 @@ body  {
   font-color: black;
 }
 
+#chartdiv {
+  width   : 70%;
+  height    : 300px;
+  font-size : 10px;
+  margin-left: 7%;
+}  
 
+.compare {
+  font-size: 8";
+}
+
+.box {
+    width: 375px;
+    height: 100px;
+    font-size: 18;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 5px solid navy;
+    background-color: lightgrey;
+    text-align: justify;
+    position: relative;
+    margin-left: 450px;
+    margin-right: 1300px;
+    margin-bottom: center;
+    margin-top: center;
+    
+} 
 
 .overview {
   text-align: justify;
@@ -74,6 +100,28 @@ h1 {
     margin-right: 1300px;
     margin-bottom: center;
     margin-top: 5px;
+}
+
+.tester {
+    width: 925px;
+    font-size: 12;
+    padding-left: 3px;
+    padding-right: 5px;
+    font-weight: bolder;
+    border: 5px solid navy;
+    margin: 25px;
+    background-color: #C5EFFD;
+    text-align: justify;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 1300px;
+    margin-bottom: center;
+    margin-top: 5px;
+  }
+
+.smaller {
+  font-weight: bolder;
+  font-size: 12;
 }
 
 .tests {

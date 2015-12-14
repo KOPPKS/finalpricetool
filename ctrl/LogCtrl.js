@@ -1,5 +1,5 @@
 angular.module('ModOne')
-.controller('LogCtrl', function($scope) {
+.controller('LogCtrl', function($scope, $firebaseAuth) {
 
   var ref = new Firebase("https://realtime556.firebaseio.com");
   

@@ -1,21 +1,65 @@
-<div class="test">
-	<h2 style="text-align: center"><b>Final Comparison Tool</b></h2>
+<html>
+    <head>
+        <title>Your Price vs. Your Competitor's Price</title>
+        
+        <script type="text/javascript" src="fusioncharts/fusionCharts.js"></script>
+<div class="tester">  
+    </head>
+        
+    <body>
+<h2 style="text-align: center"><b>Final Comparison Tool</b></h2>
+<p style="font-size: 12"><b>Once you have your final price ranges, the final step is to compare how your calcuated prices compare to those of your competitors. This final tool allows you to compare your final cost-plus based price, value-based price, an average between the two, and three prices of various competitors.</b></p>
+<p style="font-size: 12"><b>Simple enter your prices in whole numbers (with or without decimals) into the appropriate input field without any symbols (such as $ signs) and click on the Display button.</b></p>
+        
+        <span style="margin-left: 10px; font-size: 11">Your Cost-Plus Based Price  <input type='text' size='8' id='cost' value=''/> </span>
+        <br/>
+        <span style="margin-left: 32px; font-size: 11">Your Value-Based Price  <input type='text' size='8' id='value' value=''/> </span>
+        <br/>
+        <span style="margin-left: 52px; font-size: 11">Competitor #1 Price  <input type='text' size='8' id='competitor' value=''/> </span>
+        <br/>
+        <span style="margin-left: 52px; font-size: 11">Competitor #2 Price  <input type='text' size='8' id='competitors' value=''/> </span>
+        <br/>
+        <span style="margin-left: 52px; font-size: 11">Competitor #3 Price  <input type='text' size='8' id='competitores' value=''/> </span>
+        <br/>
+        <input name="button" type='button' style="font-size: 11; float: right" value='Display' onclick="chartIt();" />
+        <br/>
+        <br/>
+        <div id="chartContainer" style="margin-left: 200px"></div>
+        
+   <script type="text/javascript">
+        
+        function chartIt()
+                {
+                  // retrieving Form data
+                  var costSales = document.getElementById("cost").value;
+                  var valueSales = document.getElementById("value").value;
+                  var a = parseFloat(costSales);
+                  var b = parseFloat(valueSales);
+                  var averageSales = ((a + b) / 2).toFixed(2);
+                  var competitorSales = document.getElementById("competitor").value;
+                  var competitorZales = document.getElementById("competitors").value;
+                  var competitorNales = document.getElementById("competitores").value;
 
-<form style="font-size: 12; font-weight: bolder">
-	
-		Final Cost-Plus Markup Price: <input style="margin-left: 107px" type="text" ng-model="first" />
-		<br>
-		Final Value-Based Price: <input style="margin-left: 138px" type="text" ng-model="second"/>
-		<br>
-		Average of Cost-Plus and Value-Based Prices: <input style="margin-left: 13px" type="text" ng-model="third"/>
-		<br/>
-		Competitors Price: <input style="margin-left: 170px" type="text" ng-model="fourth"/>
-		<button style="float: right" ng-click="drawBarColors()">Display</button>
-</form>
-
-<div id="chart_div"></div>
-
-
-
-
+                                
+                  // creating chart data from Form data
+                  var chartXMLData = "";
+                  chartXMLData += "<chart caption='Comparing Your Price' subCaption='Your price vs. competitors' >";
+                  chartXMLData += "<set label='Cost-Plus Price' value='" + costSales + "' />";
+                  chartXMLData += "<set label='Value-Based Price' value='" + valueSales + "' />";
+                  chartXMLData += "<set label='Your Average Price' value='" + averageSales + "' />";
+                  chartXMLData += "<set label='Competitor1 Price' value='" + competitorSales + "' />";
+                  chartXMLData += "<set label='Competitor2 Price' value='" + competitorZales + "' />";
+                  chartXMLData += "<set label='Competitor3 Price' value='" + competitorNales + "' />";
+                  chartXMLData += "</chart>";
+                                
+                  //rendering the chart 
+                  var myChart = new FusionCharts( "../../Charts/Bar2D.swf", "myChartId", "550", "320", "0", "1" );
+                  myChart.setXMLData( chartXMLData );
+                  myChart.render( "chartContainer" );
+             }
+    </script>
+        
+    </div>
 </div>
+    </body>
+</html>
