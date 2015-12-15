@@ -3,63 +3,63 @@ var app = angular.module('ModOne', ['firebase', 'ui.router', 'ui.bootstrap']);
 app.config(function($stateProvider, $urlRouterProvider) {
 	$urlRouterProvider.otherwise("/");
 	$stateProvider
-		.state("state1", {
+		.state("overview1", {
 			url: "/",
 			templateUrl: "partials/state1.html",
 			controller: "WmtCtrl"
 		})
-		.state("state2", {
-			url: "/state2",
+		.state("overview2", {
+			url: "/overview2",
 			templateUrl: "partials/state2.html",
 			controller: "SecondCtrl"
 		})
-		.state("state3", {
-			url: "/state3",
+		.state("cost1", {
+			url: "/cost1",
 			templateUrl: "partials/state3.html",
 			controller: "CostCtrl"
 		})
-		.state("state4", {
-			url: "/state4",
+		.state("overview3", {
+			url: "/overview3",
 			templateUrl: "partials/state4.html",
 			controller: "MoreCtrl"
 		})
-		.state("state5", {
-			url: "/state5",
+		.state("overview4", {
+			url: "/overview4",
 			templateUrl: "partials/state5.html",
 			controller: "FinCtrl"
 		})
-		.state("state6", {
-			utl: "/state6",
+		.state("walmart1", {
+			utl: "/walmart1",
 			templateUrl: "partials/state6.html",
 			controller: "WlmtCtrl"
 		})
-		.state("state7", {
-			url: "/state7",
+		.state("food1", {
+			url: "/food1",
 			templateUrl: "partials/state7.html",
 			controller: "FoodCtrl"
 		})
-		.state("state8", {
-			url: "/state8",
+		.state("value1", {
+			url: "/value1",
 			templateUrl: "partials/state8.html",
 			controller: "ValueCtrl"
 		})
-		.state("state9", {
-			url: "/state9",
+		.state("break1", {
+			url: "/break1",
 			templateUrl: "partials/state9.html",
 			controller: "BreakCtrl"
 		})
-		.state("state10", {
-			url: "/state10",
+		.state("volume1", {
+			url: "/volume1",
 			templateUrl: "partials/state10.html",
 			controller: "VolumeCtrl"
 		})
-		.state("state11", {
-			url: "/state11",
+		.state("log1", {
+			url: "/log1",
 			templateUrl: "partials/state11.html",
 			controller: "LogCtrl"
 		})
-		.state("state13", {
-			url: "/state13",
+		.state("margin1", {
+			url: "/margin1",
 			templateUrl: "partials/state13.html",
 			controller: "MgnCtrl"
 		})

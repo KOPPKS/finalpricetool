@@ -1,28 +1,28 @@
 <div class="test">
-	<h2 style="text-align: center"><b>Cost Calculator</b></h2>
+	<h2 class="midz"><b>Cost Calculator</b></h2>
 
-<p style="font-size 10">The first step in defining a price is to determine your costs. This calculator will allow one to calculate the cost per unit of a product, which can then in turn serve as the foundation to build your price.</p>
-<p style="font-size 10">This calculator takes 3 variables into account:</p>
-<ol style="font-size 10">
+<p class="ten">The first step in defining a price is to determine your costs. This calculator will allow one to calculate the cost per unit of a product, which can then in turn serve as the foundation to build your price.</p>
+<p class="ten">This calculator takes 3 variables into account:</p>
+<ol class="ten">
 	<li class="real">Materials (from bill of materials). This is basically the total cost in materials and resources to create ONE product or service. </li>
 	<li class="real">Labor Costs. This variable takes into account the number of hours to produce one product or service, and the cost per hour to pay workers to do this. For example, if it took 10 hours to produce a product at $12 an hour, the total labor costs would be $120 (10 x $12). </li>
 	<li class="real">Overhead costs. This consists of numerous types of expenses for one unit ranging from depreciation and taxes to various kinds of supplies. Basically this is a "miscellaneous" collection of costs. This is also times the number of hours it takes to produce one product or service. For example, if overhead costs were $8.20 per hour, and we had already established that it took 10 hours to produce one unit, the total overhead costs would be $82 ($8.20 x 10).</li>
 </ol>
 <br/>
-<p> Simply enter the numbers (with or without decimals) without symbols ($54.56 would simply be entered as 54.56) into the appropriate input box and click on Calculate or hit enter.</P>
-	<form style="font-size: 12; font-weight: bolder">
+<p class="ten"> Simply enter the numbers (with or without decimals) without symbols ($54.56 would simply be entered as 54.56) into the appropriate input box and click on Calculate or hit enter.</P>
+	<form class="twelve">
 	
-		Materials: <input style="margin-left: 107px" type="text" ng-model="first" />
+		Materials: <input class="mat" type="text" ng-model="first"/>
 		<br>
-		Labor Costs: <input style="margin-left: 90px" type="text" ng-model="second"/>
+		Labor Costs: <input class="lab" type="text" ng-model="second"/>
 		<br>
-		Overhead Costs: <input style="margin-left: 68px" type="text" ng-model="third"/>
+		Overhead Costs: <input class="over" type="text" ng-model="third"/>
 		<br/>
 		<br/>
 		<audio id="sound1" src="images/Sound.wav" preload="auto"></audio>
-		<button style="float: right" ng-click="sum()">Calculate</button>
+		<button class="right" ng-click="sum()">Calculate</button>
 		<br/>
-		<p style="text-align: center; font-size: 16"><b>Total unit cost for external reporting: {{ answer | currency }} per unit.</b></p>
+		<p class="totalcost"><b>Total unit cost for external reporting: {{ answer | currency }} per unit.</b></p>
 	</form>
 	
 </div>

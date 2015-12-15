@@ -1,28 +1,28 @@
 <div class="test">
-	<h2 style="text-align: center"><b>Volume Predictor</b></h2>
+	<h2 class="midz"><b>Volume Predictor</b></h2>
 
-<p style="font-size 10">Perhaps you are set on a definite price, but need to know exactly how many units to sell to reach your net profit target. This can easily be calculated by assessing four different factors</p>
-<ol style="font-size 10">
+<p class="ten">Perhaps you are set on a definite price, but need to know exactly how many units to sell to reach your net profit target. This can easily be calculated by assessing four different factors</p>
+<ol class="ten">
 	<li class="real">Desired net profit amount.</li>
 	<li class="real">Total fixed costs.</li>
 	<li class="real">Sales price per unit.</li>
 	<li class="real">Variable cost per unit.</li>
 </ol>
-<p> Simply enter the numbers (with or without decimals) without symbols ($8.55 would simply be entered as 8.55) into the appropriate input box and click on Calculate or hit enter. The answer will then be rounded up or down as a whole number.</P>
-	<form style="font-size: 12; font-weight: bolder">
+<p class="ten"> Simply enter the numbers (with or without decimals) without symbols ($8.55 would simply be entered as 8.55) into the appropriate input box and click on Calculate or hit enter. The answer will then be rounded up or down as a whole number.</P>
+	<form class="twelve">
 	
-		Desired net profit amount: <input style="margin-left: 9px" type="text" ng-model="mercury" />
+		Desired net profit amount: <input class="net" type="text" ng-model="mercury" />
 		<br>
-		Total fixed costs: <input style="margin-left: 61px" type="text" ng-model="venus"/>
+		Total fixed costs: <input class="fixedz" type="text" ng-model="venus"/>
 		<br>
-		Sales price PER UNIT: <input style="margin-left: 32px" type="text" ng-model="earth"/>
+		Sales price PER UNIT: <input class="sales" type="text" ng-model="earth"/>
 		<br>
-		Variable cost PER UNIT: <input style="margin-left: 21px" type="text" ng-model="mars"/>
+		Variable cost PER UNIT: <input class="vvcost" type="text" ng-model="mars"/>
 		<br/>
 		<br/>
 		<audio id="sound1" src="images/Sound.wav" preload="auto"></audio>
 		<button style="float: right" ng-click="sum()">Calculate</button>
-		<p style="text-align: center; font-size: 16"><b>Needed volume to sell to hit profit target: {{ volume | number:0}} units</b></p>
+		<p class="totalcost"><b>Needed volume to sell to hit profit target: {{ volume | number:0}} units</b></p>
 	</form>
 	
 </div>

@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html ng-app='ModOne'>
 <head>
   <meta charset="utf-8">
@@ -6,10 +8,8 @@
   <title>Welcome!</title>
 
   <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="style.css"
+  <link rel="stylesheet" type="text/css" href="style.css">
   
-
-
 </head>
 
 <body>
@@ -17,30 +17,18 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
    <div class="container-fluid">
         <ul class="nav navbar-nav" style="font-size: 15">
-          <li>
-            <a ui-sref="state1">Overview</a></li>
-          <li>
-            <a ui-sref="state6">Walmart Comparsion Tool</a></li>
-          <li>
-            <a ui-sref="state7">Food Price Comparison Tool</a></li>
-          <li>
-            <a ui-sref="state3">Cost Calculator</a></li>
-          <li>
-            <a ui-sref="state13">Margin Calculator</a></li>
-          <li>
-            <a ui-sref="state9">Break-even Price</a></li>
-          <li>
-            <a ui-sref="state8">Value Calculator</a></li>
-          <li>
-            <a ui-sref="state10">Volume Predictor</a></li>
-          <li>
-            <a ui-sref="demand1">Effect of Demand</a></li>
-          <li>
-            <a ui-sref="markup1">Markup Price Calculator</a></li>
-          <li>
-            <a ui-sref="compare1">Final Comparision Tool</a></li>
-          <li>
-            <a ui-sref="state11"><span class="glyphicon glyphicon-log-in"></span> Login/Logout</a>
+          <li><a ui-sref="overview1">Overview</a></li>
+          <li><a ui-sref="walmart1">Walmart Comparsion Tool</a></li>
+          <li><a ui-sref="food1">Food Price Comparison Tool</a></li>
+          <li><a ui-sref="cost1">Cost Calculator</a></li>
+          <li><a ui-sref="margin1">Margin Calculator</a></li>
+          <li><a ui-sref="break1">Break-even Price</a></li>
+          <li><a ui-sref="value1">Value Calculator</a></li>
+          <li><a ui-sref="volume1">Volume Predictor</a></li>
+          <li><a ui-sref="demand1">Effect of Demand</a></li>
+          <li><a ui-sref="markup1">Markup Price Calculator</a></li>
+          <li><a ui-sref="compare1">Final Comparision Tool</a></li>
+          <li><a ui-sref="log1"><span class="glyphicon glyphicon-log-in"></span> Login/Logout</a>
           </li>
       </ul>
 </nav>
@@ -49,27 +37,18 @@
 <br/>
 <br/>
 <br/>
-<img src="images/superman-dollar-sign.jpg" style="float:left;position:fixed; margin:5px 0px 0px 0px; cursor:pointer; cursor:hand; border:1" width="110" height="95">
-<img src="images/blog-profit copy.jpg" style="float:right;position:relative; margin:0px 0px 0px 5px; cursor:pointer; cursor:hand; border:1" width="110" height="95">
+<img class="super" src="images/superman-dollar-sign.jpg">
+<img class="profit" src="images/blog-profit copy.jpg">
 
-<h1 style="text-align: center"><b>The Price is Right!</b></h1>
-<p style="text-align: center; font-size: 14"><b>A Smarter Way to Price Retail Products</b></p>
+<h1 class="mid"><b>The Price is Right!</b></h1>
+<p class="mids"><b>A Smarter Way to Price Retail Products</b></p>
 
-<hr style="border-style:double;border-color: black; font-weight: 2em"/>
+<hr class="line"/>
 
+<img class="phone" src="images/Phone.jpg">
+<img class="group" src="images/Business1.jpeg">
 
-
-
-
-
-
-
-
-<div><img src="images/Phone.jpg" style="float:right; position:fixed;bottom:0px;right:0px;z-index:999;width="110" height="80">
-<img src="images/Business1.jpeg" style="float:left; position:fixed;bottom:0px;left:0px;z-index:999;width="110" height="58">
-</div>
-
-<div class="position: center; text-align: center" ui-view></div>
+<div class="ui" ui-view></div>
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>

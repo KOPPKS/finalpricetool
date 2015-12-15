@@ -1,15 +1,15 @@
 <div class="testy">
-	<h3 style="text-align: center"><b>Food Price Comparison Tool</b></h3>
-	<p style="font-size: 12"><b>When comparing retail products, one of the best places to start is with the world's biggest retailer-Walmart. Walmart is the world's largest company by revenue, according to the Fortune Global 500 list in 2014, as well as the biggest private employer in the world with 2.2 million employees. In addition, since 1998 Walmart is also the most profitable retailer in the U.S. So whu are trying to find the lowest competitor price, the odds are that it can be found at Walmart.</b></p>
-	<p style="font-size: 12"><b>To use the tool, simply enter the name of the product you are looking for in the field below, and click the Search button, or hit enter.</b></p>
-<img src="images/Kroger.png" style="float:right;position: relative; margin:5px 0px 20px 0px; cursor:pointer; cursor:hand; border:1" width="200" height="95">
-<img src="images/Safeway.png" style="float:left;position: relative; margin:5px 0px 20px 0px; cursor:pointer; cursor:hand; border:1" width="200" height="95">
+	<h3 class="midz"><b>Food Price Comparison Tool</b></h3>
+	<p class="fourteen"><b>In addition to the many retail products that are sold, one of the biggest products sold throughout the world is food. This tool displays an average price of food products sold throughout the major retail grocery stores in the country, such as Kroger, Safeway, and Wenco.</b></p>
+	<p class="fourteen"><b>To use the tool, simply enter the name of the product you are looking for in the field below, and click the Search button, or hit enter.</b></p>
+<img class="kroger" src="images/Kroger.png">
+<img class="safeway" src="images/Safeway.png">
 	<form>
-        <input style="margin-left: 100px; margin-top: 50px" ng-model="query" placeholder="Enter Product" />
+        <input class="inx" ng-model="query" placeholder="Enter Product" />
         <button ng-click="findProducts()">Search</button>
       </form>
       <table class="table table-bordered">
-      	<thead style="background-color: #E44424">
+      	<thead class="hd">
       		<tr>
       			<th><b>Product</b></th>
       			<th><b>Image</b></th>
@@ -18,9 +18,9 @@
       	</thead>
       <tbody>
       	<tr ng-repeat = "product in products | limitTo: 15">
-      		<td style="background-color: #D9853B; width: 94%; position: relative">{{product.Itemname}}</td>
-      		<td style="background-color: white; width: 5%; position: relative"><img ng-src="{{product.ItemImage}}"></td>
-      		<td style="background-color: #A8CD18; width: 1%; position: relative">{{product.Pricing | currency}}</td>
+      		<td class="td">{{product.Itemname}}</td>
+      		<td class="tdd"><img ng-src="{{product.ItemImage}}"></td>
+      		<td class="tddd">{{product.Pricing | currency}}</td>
       	</tr>
      </tbody>
      </table>

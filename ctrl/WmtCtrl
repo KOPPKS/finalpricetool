@@ -4,5 +4,6 @@ app.controller('WmtCtrl', function($scope) {
 	$scope.second = "For example, price your products too low and you might get a ton of sales but you might find yourself going under when you tally up your expenses at the end of the month. On the other hand, when you price your products too high, you might give off an aura of luxury, prestige, and exclusivity thereby attracting a more well-off clientele which is smaller in number but makes up for volume by purchasing your products at the higher price. However, what if you're in an area where the demographic is especially price-sensitive, then what will you do?"
 
 	$scope.third = "Ultimately, you'll have to decide whether you want higher prices for your products and a lower volume sold or lower priced products and higher volumes sold, and which direction will enable you to achieve profitability."
+	
 	$scope.fourth = "This tool attempts to simply this process by providing a solution of comparing all of the different factors that go into this process, which include:"
 });

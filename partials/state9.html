@@ -1,26 +1,26 @@
 <div class="test">
-	<h2 style="text-align: center"><b>Break-even Price</b></h2>
+	<h2 class="midz"><b>Break-even Price</b></h2>
 
-<p style="font-size 10">Break-even price is the price a company must sell its product at given a particular volume of production. Calculating the break-even price helps the company determine the price it will need to charge for its products. It also helps the company plan its future production. To calculate break-even price, the company needs to know three things:</p>
-<ul style="font-size 10">
+<p class="ten">Break-even price is the price a company must sell its product at given a particular volume of production. Calculating the break-even price helps the company determine the price it will need to charge for its products. It also helps the company plan its future production. To calculate break-even price, the company needs to know three things:</p>
+<ul class="ten">
 	<li class="real">The total fixed costs to produce a desired number of units. Fixed costs would include rent and employee salaries (or employees who are paid on a fixed salary). It's important to note that this does not imply fixed costs per unit, but rather a total cost for a specified level of production. For example, if it costs $5,000 to produce 1,000 units, the fixed cost would be $5,000.</li>
 	<li class="real">The desired level of production. In the previous example we proposed that it would cost $5,000 to produce 1,000 units. In this instance 1,000 units would represent the desired level of production.</li>
 	<li class="real">The last variable is variable cost PER UNIT. Unlike the previous two variables, which represent over all totals, this last variable is a cost per unit. Variable cost per unit includes things like hourly employee wages and utiities, which unlike rent and fixed salaries can fluctuate in value.</li>
 </ul>
-<p style="font-size 10">Fixed costs are ones that do not change with the level of production. However, variable costs do change with the level of production.</p>
+<p class="ten">Fixed costs are ones that do not change with the level of production. However, variable costs do change with the level of production.</p>
 <p> Simply enter the numbers (with or without decimals) without symbols ($9.15 would simply be entered as 9.15) into the appropriate input box and click on Calculate or hit enter.</P>
-	<form style="font-size: 12; font-weight: bolder">
+	<form class="twelve">
 	
-		Total fixed costs: <input style="margin-left: 80px" type="text" ng-model="uno" />
+		Total fixed costs: <input class="fixed" type="text" ng-model="uno" />
 		<br>
-		Desired Level of Production: <input style="margin-left: 15px" type="text" ng-model="dos"/>
+		Desired Level of Production: <input class="level" type="text" ng-model="dos"/>
 		<br>
-		Variable cost PER UNIT: <input style="margin-left: 40px" type="text" ng-model="whee"/>
+		Variable cost PER UNIT: <input class="vcost" type="text" ng-model="whee"/>
 		<br/>
 		<br/>
 		<audio id="sound1" src="images/Sound.wav" preload="auto"></audio>
-		<button style="float: right" ng-click="sum()">Calculate</button>
-		<p style="text-align: center; font-size: 16"><b>Break-even point: {{ break | currency }} per unit.</b></p>
+		<button class="right" ng-click="sum()">Calculate</button>
+		<p class="totalcost"><b>Break-even price: {{ break | currency }} per unit.</b></p>
 	</form>
 	
 </div>

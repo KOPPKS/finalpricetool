@@ -1,27 +1,27 @@
 <div class="test">
-	<h2 style="text-align: center"><b>Value Calculator</b></h2>
+	<h2 class="midz"><b>Value Calculator</b></h2>
 
-<p style="font-size 10">If you feel confident that your product is unique enough to charge outside the discounted rate range, one may want to explore using value-based pricing. Basically, it is saying if my customers are willing to pay a higher price for my unique service then I'm going to charge it. This provides valuable insight into your customer's decision making process.</p>
-<p style="font-size 10"> To do this, three different things have to be taken into account:</p>
-<ol style="font-size 10" type="A">
+<p class="ten">If you feel confident that your product is unique enough to charge outside the discounted rate range, one may want to explore using value-based pricing. Basically, it is saying if my customers are willing to pay a higher price for my unique service then I'm going to charge it. This provides valuable insight into your customer's decision making process.</p>
+<p class="ten"> To do this, three different things have to be taken into account:</p>
+<ol class="typea">
 	<li class="real">What is the unit price of the second best option for the customer among your competitors?</li>
 	<li class="real"> In a dollar amount (per unit), what is the value of all the ways that your product is superior to the second best option? This could be the dollar value of various features your product offers that your competitor does not.</li>
 	<li class="real">In a dollar amount (per unit), what is the value of all the ways that the second best option is superior to yours?</li>
 </ol>
-<p style="font-size 10">In the end, this certainly does not always give you the final "right" answer, but it does get you close! This lets you see how your customers are making decisions, and creates a calculated price so you can see if it makes sense.</p>
+<p class="ten">In the end, this certainly does not always give you the final "right" answer, but it does get you close! This lets you see how your customers are making decisions, and creates a calculated price so you can see if it makes sense.</p>
 <p> Simply enter the numbers (with or without decimals) without symbols ($15.43 would simply be entered as 15.43) into the appropriate input box and click on Calculate or hit enter.</P>
-	<form style="font-size: 12; font-weight: bolder">
+	<form class="twelve">
 	
-		Price of second best option: <input style="margin-left: 141px" type="text" ng-model="primary" />
+		Price of second best option: <input class="secondb" type="text" ng-model="primary" />
 		<br>
-		Price of superior features for your product: <input style="margin-left: 57px" type="text" ng-model="secondary"/>
+		Price of superior features for your product: <input class="pricesup" type="text" ng-model="secondary"/>
 		<br>
-		Price of superior features for second best option: <input style="margin-left: 20px" type="text" ng-model="tres"/>
+		Price of superior features for second best option: <input class="priceinf" type="text" ng-model="tres"/>
 		<br/>
 		<br/>
 		<audio id="sound1" src="images/Sound.wav" preload="auto"></audio>
-		<button style="float: right" ng-click="sum()">Calculate</button>
-		<p style="text-align: center; font-size: 16"><b>Final price per unit to charge based on value: {{ unique | currency }}</b></p>
+		<button class="right" ng-click="sum()">Calculate</button>
+		<p class="totalcost"><b>Final price per unit to charge based on value: {{ unique | currency }}</b></p>
 	</form>
 	
 </div>

@@ -1,10 +1,10 @@
-<div class="box">
-      <img src="images/Google.png" style="margin-left: 30px; width: 310px; height: 70px" ng-click="login()" ng-hide="user">
-      <p style="text-align: center"><b>Double click on icon to log in</b></p>
-      <div style="margin-left: 90px" ng-show="user">
+ <div class="box">
+      <img class="google" src="images/Google.png" ng-click="login()" ng-hide="user">
+      <p class="midz"><b>Double click on icon to log in</b></p>
+      <div class="uxt" ng-show="user">
         Welcome {{user.google.displayName}}
         <br/>
-        <button style="margin-left: 50px; margin-bottom: 60px; border-bottom: 30px" ng-click="logout()">Logout</button>
+        <button class="logout" ng-click="logout()">Logout</button>
       </div>
     </div>
   </div>
