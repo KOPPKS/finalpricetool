@@ -176,7 +176,7 @@ body  {
     text-align: justify;
     position: relative;
     margin-left: 340px;
-    margin-right: 1470px;
+    margin-right: 1490px;
     margin-bottom: center;
     margin-top: center;
     
@@ -460,10 +460,10 @@ h1 {
     background-color: #C5EFFD;
     text-align: justify;
     position: relative;
-    margin-left: 45px;
+    margin-left: 20px;
     margin-right: 100px;
     margin-bottom: center;
-    margin-top: 0px;
+    margin-top: 2px;
 }
 
 .tester {
@@ -477,10 +477,10 @@ h1 {
     background-color: #C5EFFD;
     text-align: justify;
     position: relative;
-    margin-left: 45px;
+    margin-left: 20px;
     margin-right: 100px;
     margin-bottom: center;
-    margin-top: 0px;
+    margin-top: 2px;
   }
 
 .smaller {
@@ -498,10 +498,10 @@ h1 {
     background-color: #67BCD8;
     text-align: justify;
     position: relative;
-    margin-left: 45px;
+    margin-left: 20px;
     margin-right: 100px;
     margin-bottom: center;
-    margin-top: 0px;
+    margin-top: 2px;
 }
 
 .testy {
@@ -514,10 +514,10 @@ h1 {
     background-color: lightgrey;
     text-align: justify;
     position: relative;
-    margin-left: 45px;
+    margin-left: 20px;
     margin-right: 100px;
     margin-bottom: center;
-    margin-top: 0px;
+    margin-top: 2px;
 }
 
 nav {
