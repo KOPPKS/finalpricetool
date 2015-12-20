@@ -460,7 +460,7 @@ h1 {
     background-color: #C5EFFD;
     text-align: justify;
     position: relative;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 1300px;
     margin-bottom: center;
     margin-top: 5px;
@@ -477,7 +477,7 @@ h1 {
     background-color: #C5EFFD;
     text-align: justify;
     position: relative;
-    margin-left: 150px;
+    margin-left: 0px;
     margin-right: 1300px;
     margin-bottom: center;
     margin-top: 5px;
@@ -498,7 +498,7 @@ h1 {
     background-color: #67BCD8;
     text-align: justify;
     position: relative;
-    margin-left: 150px;
+    margin-left: 0px;
     margin-right: 1300px;
     margin-bottom: center;
     margin-top: center;
@@ -514,7 +514,7 @@ h1 {
     background-color: lightgrey;
     text-align: justify;
     position: relative;
-    margin-left: 150px;
+    margin-left: 0px;
     margin-right: 1300px;
     margin-bottom: center;
     margin-top: center;
