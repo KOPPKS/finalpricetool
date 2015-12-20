@@ -175,7 +175,7 @@ body  {
     background-color: lightgrey;
     text-align: justify;
     position: relative;
-    margin-left: 300px;
+    margin-left: 330px;
     margin-right: 1300px;
     margin-bottom: center;
     margin-top: center;
@@ -461,9 +461,9 @@ h1 {
     text-align: justify;
     position: relative;
     margin-left: 0px;
-    margin-right: 1000px;
+    margin-right: 930px;
     margin-bottom: center;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .tester {
@@ -478,9 +478,9 @@ h1 {
     text-align: justify;
     position: relative;
     margin-left: 0px;
-    margin-right: 1000px;
+    margin-right: 930px;
     margin-bottom: center;
-    margin-top: 5px;
+    margin-top: 0px;
   }
 
 .smaller {
@@ -499,9 +499,9 @@ h1 {
     text-align: justify;
     position: relative;
     margin-left: 0px;
-    margin-right: 1000px;
+    margin-right: 930px;
     margin-bottom: center;
-    margin-top: center;
+    margin-top: 0px;
 }
 
 .testy {
@@ -515,9 +515,9 @@ h1 {
     text-align: justify;
     position: relative;
     margin-left: 0px;
-    margin-right: 1000px;
+    margin-right: 930px;
     margin-bottom: center;
-    margin-top: center;
+    margin-top: 0px;
 }
 
 nav {
