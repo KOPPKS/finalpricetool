@@ -261,7 +261,7 @@ p.ten {
 }
 
 .inp {
-  margin-left: 300px;
+  margin-left: 375px;
   margin-top: 50px;
 }
 
@@ -450,35 +450,38 @@ h1 {
 }
 
 .test {
-    width: 925px;
+    width: 1000px;
     font-size: 6;
     padding-left: 3px;
-    padding-right: 5px;
+    padding-right: 3px;
     font-weight: bolder;
     border: 5px solid navy;
-    margin: 25px;
     background-color: #C5EFFD;
     text-align: justify;
-    position: relative;
-    margin-left: 30px;
-    margin-right: 10px;
+    position: absolute;
+    margin-left: center;
+    margin-right: center;
     margin-bottom: center;
     margin-top: 2px;
 }
 
+.center {
+  margin: 0 auto;
+  width: 75%;
+}
+
 .tester {
-    width: 925px;
+    width: 1000px;
     font-size: 12;
     padding-left: 3px;
     padding-right: 5px;
     font-weight: bolder;
     border: 5px solid navy;
-    margin: 25px;
     background-color: #C5EFFD;
     text-align: justify;
-    position: relative;
-    margin-left: 30px;
-    margin-right: 10px;
+    position: absolute;
+    margin-left: center;
+    margin-right: center;
     margin-bottom: center;
     margin-top: 2px;
   }
@@ -489,7 +492,7 @@ h1 {
 }
 
 .tests {
-    width: 925px;
+    width: 1000px;
     font-size: 18;
     padding-left: 5px;
     padding-right: 5px;
@@ -497,15 +500,15 @@ h1 {
     margin: 25px;
     background-color: #67BCD8;
     text-align: justify;
-    position: relative;
-    margin-left: 30px;
-    margin-right: 10px;
+    position: absolute;
+    margin-left: center;
+    margin-right: center;
     margin-bottom: center;
     margin-top: 2px;
 }
 
 .testy {
-    width: 925px;
+    width: 1000px;
     font-size: 18;
     padding-left: 5px;
     padding-right: 5px;
@@ -513,9 +516,9 @@ h1 {
     margin: 25px;
     background-color: lightgrey;
     text-align: justify;
-    position: relative;
-    margin-left: 30px;
-    margin-right: 10px;
+    position: absolute;
+    margin-left: center;
+    margin-right: center;
     margin-bottom: center;
     margin-top: 2px;
 }
