@@ -48,11 +48,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
 			templateUrl: "partials/state10.html",
 			controller: "VolumeCtrl"
 		})
-		.state("log1", {
-			url: "/log1",
-			templateUrl: "partials/state11.html",
-			controller: "LogCtrl"
-		})
 		.state("margin1", {
 			url: "/margin1",
 			templateUrl: "partials/state13.html",
